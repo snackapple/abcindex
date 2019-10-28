@@ -1,0 +1,272 @@
+body{
+	overflow-x: hidden;
+}
+a{
+	text-decoration: none;
+}
+.wrap{
+	padding-top: 20px;
+}
+.container{
+	max-width: 960px;
+	margin: 0 auto;
+}
+a:hover{
+	text-decoration: none;
+}
+a:focus{
+	text-decoration: none;
+}
+img{
+	width: 100%;
+}
+ul,li{
+	list-style: none;
+	padding: 0;
+}
+/*导航*/
+nav .container-fluid{
+	max-width:960px ;
+	margin: 0 auto;
+}
+.dropdown .dropdown-menu li a{
+	height: 38px;
+	border-bottom: solid 1px #CCCCCC;
+	line-height: 38px;
+}
+.dropdown .dropdown-menu{
+	padding: 0;
+}
+/*logo pc*/
+.logo{
+	padding: 0;
+}
+.logo-box{
+	width: 140px;
+	background: -webkit-linear-gradient(left,#1D1D50,#3175B7);
+	background: -moz-linear-gradient(left,#1D1D50,#3175B7);
+	background: linear-gradient(left,#1D1D50,#3175B7);
+}
+.logo-box span{
+	display: block;
+	color: #FFFFFF;
+}
+.logo1{
+	background: #FFFFFF;
+	padding: 25px 10px;
+	border-bottom-right-radius: 40px;
+}
+.logo-2{
+	background: -webkit-linear-gradient(left,#1c368c,#3177b9);
+	line-height: 50px;
+	padding-left: 15px;
+	height: 0;
+	overflow: hidden;
+}
+.logo-3{
+	height: 50px;
+	line-height: 50px;
+	padding-left: 15px;
+}
+/*logo 移动*/
+.logo-m{
+	width: 100px;
+	margin: 10px 0 0 20px;
+}
+/*标签页-*/
+/*左侧*/
+.left .nav a{
+	color: #022573;
+	font-size: 16px;
+	font-weight: bold;
+}
+.left h2{
+	font-size: 16px;
+	max-width: calc(100%-20px);
+	white-space: nowrap;
+	overflow:hidden ;
+	text-overflow: ellipsis;
+	margin: 0;
+	margin-bottom: 10px;
+}
+.left  p{
+	line-height: 1.7;
+	color: #5E5E5E;
+}
+.left .tab-pane {
+	padding: 10px;
+	border: 1px solid #CCCCCC;
+	border-top:none ; 
+}
+.left .tab-pane dt{
+	max-width: 200px;
+	float: left;
+	margin-right: 15px;
+}
+.left .tab-pane dl{
+	overflow: hidden;
+	border-bottom: 1px dashed #CCCCCC;
+	padding-bottom: 10px;
+}
+.left .tab-pane dt{
+	max-width: 200px;
+	float: left;
+	margin-right: 15px;
+}
+.left .tab-pane .more a{
+	float: right;
+	background: #15A9D4;
+	padding: 10px 20px;
+	border-radius: 10px;
+	 color: #FFFFFF;
+}
+.paging{
+	padding-left:10px ;
+}
+.paging ul li{
+	float: left;
+	margin: 0 5px;
+	background: #EFEFEF;
+	
+}
+.paging ul li a{
+	padding: 0 10px;
+}
+.paging  .active{
+	background: #022573;
+	
+}
+.paging  .active a{
+	color: #FFFFFF;
+}
+/*右侧*/
+.right h2{
+	color: #022573;
+	font-size: 18px;
+	font-weight: bold;
+}
+.new{
+	width: 400px;
+	overflow: hidden;
+	padding: 10px;
+	box-shadow: 2px 2px 5px #CCCCCC;
+	margin-bottom: 5px;
+}
+.new dl dt{
+	width: 130px;
+	float: left;
+	padding-right: 10px;
+}
+.new h2{
+	font-weight: normal;
+	font-size: 16px;
+	max-width: calc(100%-20px);
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	margin: 0;
+	margin-bottom: 10px;
+}
+.new .more a{
+float: right;
+	background: #15A9D4;
+	padding: 10px 20px;
+	border-radius: 10px;
+	 color: #FFFFFF;
+}
+
+
+
+/*<!--网站地图-->*/
+.map{
+	background: #122B40;
+	color: #FFFFFF;
+}
+.map h2{
+	font-size: 18px;
+}
+.map ul li a{
+	color: #FFFFFF;
+	line-height:25px;
+}
+/*连接pc*/
+.link{
+	background: -webkit-linear-gradient(top,#022975,#034A83);
+	background: -moz-linear-gradient(top,#022975,#034A83);
+	background: linear-gradient(top,#022975,#034A83);
+	
+}
+.weibo{
+	color: rgba(11,140,195);
+	margin-top: 20px;
+}
+.weibo a{
+	display: block;
+}
+.weibo img{
+	width: 10%;
+	margin-top: 10px;
+}
+/*微博移动*/
+.weibo-m{
+	text-align: center;
+}
+.weibo-m a{
+	display: block;
+}
+.weibo-m img{
+	width: 10%;
+	margin-top: 10px;
+	
+}
+.link .logo{
+	text-align: center;
+}
+.link .logo img{
+width:100px;
+margin-top: 20px;
+}
+.link .menu{
+	text-align: center;
+}
+.link .menu select{
+	padding: 10px;
+	border-radius: 5px;
+	margin-top: 40px;
+}
+.footer-nva{
+	margin-top: 20px;
+}
+.footer-nva ul li {
+	display: inline-block;
+}
+.footer-nva ul li a{
+	color: #FFFFFF;
+	padding:0 5px;
+	border-right: 1px solid #FFFFFF;
+}
+.footer-nva ul li:last-child a{
+	border: 0;
+}
+.footer-nva p{
+	text-align: center;
+	color: #FFFFFF;
+}
+/*点赞*/
+.share{
+	font-size: 18px;
+	position: absolute;
+	bottom: 10px;
+	right: 20px;
+}
+/*转发*/
+.alt{
+	display: none;
+	position: absolute;
+	bottom: 0;
+	right: -40px;
+	width: 40px;
+	height: 120px;
+	}
+
+
